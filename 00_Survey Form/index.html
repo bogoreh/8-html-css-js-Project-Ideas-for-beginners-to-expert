@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdibogoreh</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="css/abdi.jpg" />
+</head>
+
+<body>
+
+    <h1 id="title">Full Stack Developer Survey Form</h1>
+
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <div id="body">
+
+        <form id="survey-form">
+
+            <label id="name-label" for="name">
+                <p>Name:</p>
+            </label>
+
+            <input id="name" type="text" placeholder="Enter Your Name" required>
+
+
+            <label id="email-label" for="email">
+                <p>Email:</p>
+            </label>
+
+            <input id="email" type="email" placeholder="Enter Your Email" required>
+
+            <label id="number-label" for="number">
+                <p>Age:</p>
+            </label>
+
+            <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+
+            <p>What are you choosing to become Full Stack Developer ?</p>
+            <select id="dropdown">
+
+                <option value="default">Nothing</option>
+                <option value="He has a moral center.">Front end Web Developer.</option>
+                <option value="He stands for something.">Back end web developer.</option>
+                <option value="He shuns the limelight.">Database Administrator.</option>
+                <option value="He protects his team.">He Has a Something Idea about full stack developer.</option>
+                <option value="He adapts to strengths and weaknesses.">Responsive Web design</option>
+
+            </select>
+
+            <p>Which Language Do You Like The Most about Full stack Developer?</p>
+
+            <input type="radio" name="html/css" value="1">HTML/CSS</input>
+            <br>
+            <input type="radio" name="javascript" value="2">JavaScript</input>
+            <br>
+            <input type="radio" name="bootstrap" value="3">Bootstrap</input>
+            <br>
+            <input type="radio" name="reactjs angularjs" value="4">Reactjs / Angularjs</input>
+            <br>
+            <input type="radio" name="php mysql" value="5">PHP/MySql</input>
+            <br>
+            <input type="radio" name="nodejs" value="6">Nodejs</input>
+            <br>
+            <input type="radio" name="ruby on rails" value="7">Ruby on rails</input>
+
+            <p>Which CMS Do You Like?</p>
+
+            <input type="checkbox" name="wordpress" value="1">Wordpress</input>
+            <br>
+            <input type="checkbox" name="drupal" value="2">Drupal</input>
+            <br>
+            <input type="checkbox" name="joomla" value="3">Joomla</input>
+            <br><br>
+
+            <textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+            <br>
+            <input id="submit" type="submit" value="Submit">
+
+        </form>
+
+    </div>
+</body>
+
+</html>
